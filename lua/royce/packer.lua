@@ -32,4 +32,7 @@ return require('packer').startup(function(use)
   -- UndoTree: See all your changes as a tree, like git
   use('mbbill/undotree')
 
+  -- Fugitive: Git repo manager
+  use('tpope/vim-fugitive')
+
 end)
