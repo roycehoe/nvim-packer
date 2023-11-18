@@ -17,8 +17,6 @@ return require('packer').startup(function(use)
   }
 
   -- Rose pine: Color scheme
-  require('packer').startup(function(use)
-	  use({ 'rose-pine/neovim', as = 'rose-pine' })
-  end)
+  use({ 'rose-pine/neovim', as = 'rose-pine' })
 
 end)
