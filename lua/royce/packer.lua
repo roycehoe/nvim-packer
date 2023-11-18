@@ -25,7 +25,6 @@ return require('packer').startup(function(use)
 
   -- Treesitter: Parsing library playground
   use('nvim-treesitter/playground')
-
-
+  use('theprimeagen/harpoon')
 
 end)
