@@ -25,6 +25,11 @@ return require('packer').startup(function(use)
 
   -- Treesitter: Parsing library playground
   use('nvim-treesitter/playground')
+
+  -- Harpoon: Bookmark files
   use('theprimeagen/harpoon')
+
+  -- UndoTree: See all your changes as a tree, like git
+  use('mbbill/undotree')
 
 end)
