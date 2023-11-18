@@ -19,4 +19,13 @@ return require('packer').startup(function(use)
   -- Rose pine: Color scheme
   use({ 'rose-pine/neovim', as = 'rose-pine' })
 
+  -- Treesitter: Parsing library
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    additional_vim_regex_highlighting = false,
+
+  -- Treesitter: Parsing library playground
+  use('nvim-treesitter/playground')
+
+
+
 end)
