@@ -17,7 +17,7 @@ return require('packer').startup(function(use)
   }
 
   -- Rose pine: Color scheme
-  use({ 'rose-pine/neovim', as = 'rose-pine' })
+  use'shaunsingh/nord.nvim'
 
   -- Treesitter: Parsing library
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -35,7 +35,7 @@ return require('packer').startup(function(use)
   -- Fugitive: Git repo manager
   use('tpope/vim-fugitive')
 
-  -- LspZero: 
+  -- LspZero: Autocompletion
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v3.x',
